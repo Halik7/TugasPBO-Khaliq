@@ -60,7 +60,7 @@ public class Database {
             System.out.printf("| %-8.8S |", "  NIM");
             System.out.printf(" %-20.20S |", "  NAMA");
             System.out.printf(" %-20.20S |", " ALAMAT");
-            System.out.printf(" 8.8S |","SEMESTER");
+            System.out.printf(" %8.8S |","SEMESTER");
             System.out.printf(" %3.3S |", "SKS");
             System.out.printf(" %4.4S |%n", "ipk");
             System.out.println("\n------------------------------------------------------------------- ");
@@ -68,7 +68,7 @@ public class Database {
                 System.out.printf("| %-8.8S |", mhs.getNim());
                 System.out.printf(" %-20.20S |", mhs.getNama());
                 System.out.printf(" %-20.20S |", mhs.getAlamat());
-                System.out.printf(" 8.8S |", mhs.getSemester());
+                System.out.printf(" %8.8S |", mhs.getSemester());
                 System.out.printf(" %3.3S |", mhs.getSks());
                 System.out.printf(" %4.4S |", mhs.getIpk());
                 System.out.println();
